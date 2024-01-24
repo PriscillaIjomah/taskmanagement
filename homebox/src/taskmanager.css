@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.taskmanager-main{
+    width:100vw;
+    height:100vh;
+    display: flex;
+}
+
+.app-main-overlay{
+      width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.623);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.app-main-no-overlay{
+    display: none;
+}
+
+.left-app-section{
+ min-width:15%;
+ height:100%;
+ background-color:#bca37f28;
+ 
+}
+
+.left-app-section-hide{
+    display: none;
+}
+
+.right-app-section{
+    width:100%;
+    height:100%;
+    /* background-color:#113946; */
+    
+}

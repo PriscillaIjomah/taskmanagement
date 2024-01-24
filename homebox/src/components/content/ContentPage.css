@@ -1,0 +1,152 @@
+
+
+.contentpage-main{
+    width:100%;
+    height:100%
+}
+
+/* www */
+
+.contentpage-nav{
+    width:100%;
+    height:13%;
+    background-color: #bca37f73;
+    border-left:px solid #BCA37F;
+}
+
+.nav-header{
+    width:95%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header-hide{
+     width:95%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-contentpage-header-section{
+     width:10%;
+    height:15%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+     color:#113946;
+     cursor: pointer;
+     
+}
+
+.left-contentpage-header-section-hide{
+    display: none;
+}
+.right-contentpage-header-section {
+  width:35%;
+  height:80%;
+  display: flex;
+  justify-content: flex-end;
+  gap:20px;
+  align-items: center;
+
+}
+.right-contentpage-header-section-btn{
+    width:40%;
+    height:45px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px;
+    color:#113946 ;
+    background-color: rgba(255, 255, 255, 0.575);
+
+}
+
+.user-access{
+    width:30%;
+    height:100%;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+.profile-key{
+    width:37%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color:white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hide-log-out{
+    display: none;
+    animation:backOutUp;
+    animation-duration: 2s;
+}
+.log-out{
+    width:100%;
+    height:70px;
+    position: absolute;
+    top:60px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    animation:backInDown;
+    animation-duration: 2s;
+}
+
+/* .right-contentpage-section-hide{
+     width:13%;
+    height:40%;
+} */
+
+.center-contentPage-header-section{
+    width:30%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+     /* color:#113946; */
+      color:rgba(255, 255, 255, 0.575);
+}
+
+
+.color-center-contentPage-header-section{
+    width:30%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+     /* color:#113946; */
+     color: black;
+     
+     
+}
+
+
+.contentpage-section{
+    width:100%;
+    height: 85%;
+    
+}

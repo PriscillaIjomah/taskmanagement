@@ -1,0 +1,46 @@
+.count-main{
+    width:100%;
+    height:100%
+}
+
+
+.name{
+    width:100%;
+    height:50px;
+    display: flex;
+   
+}
+
+.name-article{
+    width:30%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleyellow{
+    width:4%;
+    height:30%;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.circleorange{
+    width:4%;
+    height:30%;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.circlegreen{
+    width:4%;
+    height:30%;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.cartegory-name{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
